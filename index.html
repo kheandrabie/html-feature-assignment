@@ -1,0 +1,155 @@
+<!-- heading -->
+<!-- text element -->
+<!-- hyperlink (to internal, to external) -->
+<!-- media (img, video, audio) -->
+<!-- list -->
+<!-- table -->
+<!-- form & input -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body
+    style="
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    <!-- heading -->
+    <h1 style="text-align:center;">Welcome Abroad, Fellas!</h1>
+
+    <!-- hyperlink internal -->
+    <nav style="text-align:center;">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+    <br><br>
+
+    <!-- media img -->
+    <div class="image">
+
+        <img src="https://cdn.medcom.id/images/content/2014/11/07/315551/5lEiG8z9Rm.jpg " alt="hero-image"
+            style="width:100%; height:100%;"></img>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+        <h1>Movie Details & Credits</h1>
+        <h3>Main article: Big Hero 6: The Series</h3>
+        <ul>
+            <li>Walt Disney Studios Motion Pictures</li>
+            <li>Release Date: November 7, 2014 | PG</li>
+        </ul>
+
+
+        <h3>Starring: Alan Tudyk, Damon Wayans Jr., Génesis Rodríguez, James Cromwell, Jamie Chung, Maya Rudolph, Ryan
+            Potter, Scott Adsit, T.J. Miller</h3>
+
+        <b>Summary:</b> Big Hero 6 is an action-packed comedy-adventure about robotics prodigy Hiro Hamada, who learns
+        to harness his genius—thanks to his brilliant brother Tadashi and their like-minded friends: adrenaline junkie
+        Go Go Tamago, neatnik Wasabi, chemistry whiz Honey Lemon and fanboy Fred. When a devastating turn of events
+        catapults them into the midst of a dangerous plot unfolding in the streets of San Fransokyo, Hiro turns to his
+        closest companion - a robot named Baymax - and transforms the group into a band of high-tech heroes determined
+        to solve the mystery. [Walt Disney Animation Studios]
+
+        <ol>
+            <li><b>Director: </b>Chris Williams and Don Hall</li>
+            <li><b>Genre(s): </b>Action, Adventure, Sci-Fi, Comedy, Animation, Family</li>
+            <li><b>Rating: </b>PG</li>
+            <li><b>Runtime: </b>102 min</li>
+        </ol>
+    </div>
+    <!-- hyperlink external-->
+    <div>
+        <h2> <a href="https://www.metacritic.com/movie/big-hero-6" target="_blank=">Watch all full Credit Here</a></h2>
+    </div>
+    <!-- table -->
+    <table class="table" border="1" cellspacing="0" cellpadding="10" style="width:100%;">
+        <thead>
+            <tr>
+                <th style="height:px; width:fit-content; background-color: #f5eee8;"><img
+                        src="https://c4.wallpaperflare.com/wallpaper/235/929/73/big-hero-6-disney-baymax-wallpaper-preview.jpg"
+                        alt="pic-table"></th>
+                <th colspan=""> Big Hero 6 Teatrical Release</th>
+            </tr>
+            <tr>
+                <th>Directed by</th>
+                <td scope="col">Don Hall</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Screenplay</th>
+                <td>Chris William</td>
+            </tr>
+            <tr>
+                <th rowspan="3">42nd Annual Annie Awards</th>
+                <td>Big Hero 6</td>
+            </tr>
+            <tr>
+                <td scope="row">Animated Effects in an Animated Production</td>
+            </tr>
+            <tr>
+                <td scope="row">Kids' Choice Awards</td>
+            </tr>
+            <tr>
+                <th scope="row">87th Academy Award</th>
+                <td>Best Animated Feature</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- form -->
+    <form name="form-submit" method="GET" action="daftar.php">
+        <table>
+            <h2>Let's fill in your opinion about this film!</h2>
+            <tr>
+                <td><label for="Username">Full Name:</label></td>
+                <td><input type="text" id="Username" placeholder="full name"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Email:</label></td>
+                <td><input type="email" id="password" placeholder="email"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <input type="radio" id="pria" name="Jenis Kelamin"><label for="pria">Male</label>
+                        <input type="radio" id="wanita" name="Jenis Kelamin"><label for="wanita">Female</label>
+                        <input type="radio" id="rns" name="Jenis Kelamin"><label for="rns">Rather not say</label>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Combo Box">Movie Series :</label>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Big Hero 6</option>
+                        <option value="">Big Hero 5</option>
+                        <option value="">Big Hero 4</option>
+                        <option value="">Big Hero 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="TextArea">Comments :</label></td>
+                <td> <textarea name="" id="" cols="30" rows="5" placeholder="Input your thought here!"></textarea></td>
+            </tr>
+            <!-- input -->
+            <tr>
+                <td colspan="2">
+                    <center><button type="submit">Submit Here!</button></center>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br>
+    <div class="Copyright" style="text-align: center;"> Copyright Disney Corp © 2022</div>
+</body>
+</html>
